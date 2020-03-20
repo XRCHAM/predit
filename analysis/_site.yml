@@ -1,7 +1,7 @@
-name: "predit"
+name: predit
 output_dir: ../docs
 navbar:
-  title: "predit"
+  title: predit
   left:
   - text: Home
     href: index.html
@@ -9,6 +9,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/XRCHAM/predit
 output:
   workflowr::wflow_html:
     toc: yes
